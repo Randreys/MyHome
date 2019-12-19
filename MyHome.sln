@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D1EF7CF-7BA6-4B09-84AB-65B813C43320}"
 EndProject
@@ -41,6 +41,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHome.Infrastructure.Tests", "Tests\Unit Tests\MyHome.Infrastructure.Tests\MyHome.Infrastructure.Tests.csproj", "{39D19E5C-2857-43E7-8A50-150C72A0EEED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHome.Services.Tests", "Tests\Unit Tests\MyHome.Services.Tests\MyHome.Services.Tests.csproj", "{677EBBB1-A323-4FE8-99DC-A536278F1159}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7B31188-EEFA-4008-AB75-3A2FA2B791E1} = {F7B31188-EEFA-4008-AB75-3A2FA2B791E1}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta", "Meta", "{715FD079-E79A-4C9E-A033-214EFBEA90E2}"
 	ProjectSection(SolutionItems) = preProject
